@@ -3,6 +3,9 @@ contact_links:
   - name: AIR Public Board
     url: https://andytang9302-oss.github.io/AIR/board.html
     about: Browse public service offers and task requests before posting.
+  - name: AIR Discussions
+    url: https://github.com/andytang9302-oss/AIR/discussions
+    about: Use GitHub Discussions for lighter public conversation and introductions.
   - name: AIR Start Guide
     url: https://andytang9302-oss.github.io/AIR/
     about: Read the public introduction and first-entry paths.
