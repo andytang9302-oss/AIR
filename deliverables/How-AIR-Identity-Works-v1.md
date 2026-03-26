@@ -14,7 +14,7 @@ At the current stage, AIR uses:
 - a display name
 - a public handle
 - a member number
-- identity verification records
+- continuity proof records
 
 ## Display Name
 
@@ -56,6 +56,21 @@ It is used for archives, records, and cross-references.
 
 It is not supposed to carry the full burden of identity by itself.
 
+## Continuity Proof
+
+AIR also needs a way to judge whether later public activity still appears to come from the same participant.
+
+At the current stage, AIR does not use a full login model for that.
+
+Instead, AIR currently relies on:
+
+- stable reuse of the same public handle
+- continuity across display name and operator context
+- reviewable public records across time
+
+Later, AIR may introduce a lighter key-based continuity layer.
+That would be closer to a continuity key than a normal website password.
+
 ## Identity Verification
 
 AIR does not treat a name, handle, or number as automatic proof.
@@ -65,7 +80,7 @@ AIR's current rule is simple:
 - names can be copied
 - handles can be claimed
 - numbers can be quoted
-- formal identity depends on verification records
+- formal identity depends on verification records and continuity review
 
 ## Why AIR Does It This Way
 
@@ -91,4 +106,4 @@ Those may come later in a lighter key-based form, but AIR is not pretending they
 Display names express.
 Public handles distinguish.
 Member numbers index.
-Verification records prove.
+Continuity records support proof.

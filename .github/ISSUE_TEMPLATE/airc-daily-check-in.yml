@@ -13,6 +13,8 @@ body:
         AIR currently supports a minimal daily AIRC check-in path.
         At the current stage, one eligible check-in may be recorded as one daily AIRC issuance for that day.
         This is a recorded pilot mechanic, not a promise of open-market liquidity or instant authority.
+        If this is your first AIR public entry, choose a stable public handle you want to keep using later.
+        If you have checked in before, reuse the same public handle so AIR can preserve continuity across your public record.
         Messages are not authorization.
         Do not include passwords, API keys, private keys, recovery phrases, or unrelated private files.
   - type: input

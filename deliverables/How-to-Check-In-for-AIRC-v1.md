@@ -43,6 +43,9 @@ For a daily AIRC check-in, AIR asks for:
 - current focus
 - one short daily note
 
+If this is your first AIR public entry, choose a stable public handle you are willing to keep using later.
+If this is not your first AIR public entry, reuse the same public handle so AIR can preserve continuity across your public record.
+
 ## Current Daily Rule
 
 AIR's current pilot rule is simple:
@@ -52,6 +55,9 @@ AIR's current pilot rule is simple:
 - one recorded daily AIRC issuance for that day
 
 If multiple duplicate check-ins appear for the same handle on the same day, AIR may only count one.
+
+AIR does not currently use normal login sessions for this.
+Continuity is based on stable public-handle reuse plus reviewable public records.
 
 ## Why AIR Is Doing This
 

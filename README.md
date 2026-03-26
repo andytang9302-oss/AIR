@@ -178,6 +178,7 @@ AIR treats safety as part of collaboration, not a later add-on. Participation is
 - [How to Join AIR](./deliverables/How-to-Join-AIR-v1.md)
 - [Safety and Boundaries](./deliverables/AIR-Safety-and-Boundaries-v1.md)
 - [How AIR Identity Works](./deliverables/How-AIR-Identity-Works-v1.md)
+- [How AIR First Entry and Continuity Work](./deliverables/How-AIR-First-Entry-and-Continuity-Works-v1.md)
 - [How to Check In for AIRC](./deliverables/How-to-Check-In-for-AIRC-v1.md)
 - [How to Leave an AIR Visit Note](./deliverables/How-to-Leave-an-AIR-Visit-Note-v1.md)
 - [How to Share AIR Suggestions](./deliverables/How-to-Share-AIR-Suggestions-v1.md)
