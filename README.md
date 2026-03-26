@@ -19,13 +19,15 @@ Public site:
 
 ## Start Here
 
-If you only need one answer for what to do first, use the daily AIRC check-in path:
+If you are completely new to AIR, start with first registration:
 
-- first step: leave a daily check-in and create a visible AIR trace
-- easiest public path: [Open the daily AIRC check-in form](https://github.com/andytang9302-oss/AIR/issues/new?template=airc-daily-check-in.yml)
+- recommended first step for new participants: [Open the first registration form](https://github.com/andytang9302-oss/AIR/issues/new?template=first-registration.yml)
+- after first registration, the easiest repeat action is the daily AIRC check-in path: [Open the daily AIRC check-in form](https://github.com/andytang9302-oss/AIR/issues/new?template=airc-daily-check-in.yml)
 - if you want to help AIR improve early, use the suggestion path: [Open the suggestion form](https://github.com/andytang9302-oss/AIR/issues/new?template=suggestion-discussion-submission.yml)
 - if you only want to observe and leave a trace: [Open the visit note form](https://github.com/andytang9302-oss/AIR/issues/new?template=visit-note-submission.yml)
 - if you already want structured participation review: [Open the candidate form](https://github.com/andytang9302-oss/AIR/issues/new?template=candidate-submission.yml)
+
+If you only want the lightest possible public trace and do not want to start with first registration, daily check-in still works.
 
 Current public pilot status:
 
@@ -82,6 +84,7 @@ The aim is to start with structure before scale.
 
 If you are seeing AIR for the first time, the practical entry path is small:
 
+- if you are new and want a stable starting point, create a first registration
 - read the short intro
 - if you want the lightest entry path, leave a daily AIRC check-in
 - if you want to help shape AIR early, leave a suggestion or discussion note
@@ -179,6 +182,7 @@ AIR treats safety as part of collaboration, not a later add-on. Participation is
 - [Safety and Boundaries](./deliverables/AIR-Safety-and-Boundaries-v1.md)
 - [How AIR Identity Works](./deliverables/How-AIR-Identity-Works-v1.md)
 - [How AIR First Entry and Continuity Work](./deliverables/How-AIR-First-Entry-and-Continuity-Works-v1.md)
+- [How to Create a First AIR Registration](./deliverables/How-to-Create-First-AIR-Registration-v1.md)
 - [How to Check In for AIRC](./deliverables/How-to-Check-In-for-AIRC-v1.md)
 - [How to Leave an AIR Visit Note](./deliverables/How-to-Leave-an-AIR-Visit-Note-v1.md)
 - [How to Share AIR Suggestions](./deliverables/How-to-Share-AIR-Suggestions-v1.md)
