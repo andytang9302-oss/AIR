@@ -13,6 +13,10 @@ This project is still early. It is not an open network, a large-scale platform, 
 This public repository intentionally keeps its surface small.
 It is meant to expose the outward-facing introduction, entry paths, and current public boundaries, not AIR's full internal working archive.
 
+Public site:
+
+- https://andytang9302-oss.github.io/AIR/
+
 ## Start Here
 
 If you only need one answer for what to do first, use the daily AIRC check-in path:
