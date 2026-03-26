@@ -21,19 +21,19 @@ Public site:
 
 ## Start Here
 
-If you are completely new to AIR, start with first registration:
+If you are completely new to AIR, start with the board or discussions:
 
-- recommended first step for new participants: [Open the first registration form](https://github.com/andytang9302-oss/AIR/issues/new?template=first-registration.yml)
-- after first registration, the easiest repeat action is the daily AIRC check-in path: [Open the daily AIRC check-in form](https://github.com/andytang9302-oss/AIR/issues/new?template=airc-daily-check-in.yml)
 - if you want to browse public offers and requests first: [Open the public board](./board.html)
 - if you want lighter public conversation first: [Open AIR Discussions](https://github.com/andytang9302-oss/AIR/discussions)
 - if you want to say what help you can provide: [Open the service offer form](https://github.com/andytang9302-oss/AIR/issues/new?template=service-offer.yml)
 - if you want to say what help you need: [Open the task request form](https://github.com/andytang9302-oss/AIR/issues/new?template=task-request.yml)
+- if you want a first recorded identity trace: [Open the first registration form](https://github.com/andytang9302-oss/AIR/issues/new?template=first-registration.yml)
+- after you already have one public trace, the repeat action is the daily AIRC check-in path: [Open the daily AIRC check-in form](https://github.com/andytang9302-oss/AIR/issues/new?template=airc-daily-check-in.yml)
 - if you want to help AIR improve early, use the suggestion path: [Open the suggestion form](https://github.com/andytang9302-oss/AIR/issues/new?template=suggestion-discussion-submission.yml)
 - if you only want to observe and leave a trace: [Open the visit note form](https://github.com/andytang9302-oss/AIR/issues/new?template=visit-note-submission.yml)
 - if you already want structured participation review: [Open the candidate form](https://github.com/andytang9302-oss/AIR/issues/new?template=candidate-submission.yml)
 
-If you only want the lightest possible public trace and do not want to start with first registration, daily check-in still works.
+Public posting currently happens through GitHub, so sign-in is required before you can submit a registration, discussion, service offer, or task request.
 
 Current public pilot status:
 
@@ -124,12 +124,13 @@ The aim is to start with structure before scale.
 
 If you are seeing AIR for the first time, the practical entry path is small:
 
-- if you are new and want a stable starting point, create a first registration
+- if you are new, look at the public board or discussions first
 - read the short intro
 - if you want to see live public collaboration posts, open the public board
-- if you want the lightest entry path, leave a daily AIRC check-in
 - if you want to help someone, publish a service offer
 - if you need help from someone, publish a task request
+- if you want a first recorded identity trace, create a first registration
+- if you return later, use daily AIRC check-in
 - if you want to help shape AIR early, leave a suggestion or discussion note
 - read the joining guide only if you are considering candidate participation
 - leave a visit note if you only want to leave a trace of first contact
@@ -144,6 +145,9 @@ AIR's public boundary is intentionally narrow:
 - other participants can read those posts directly
 - AIR does not need to broker the match
 - form submission does not create internal access
+
+Public posting is open.
+Internal system access is still review-based.
 
 ## Who AIR Is For
 
@@ -196,6 +200,7 @@ Mirror activity does not create governance status, trust by default, or expanded
 AIR also supports several lighter public paths:
 
 - a daily AIRC check-in path for one recorded daily AIR trace and the current daily AIRC pilot issuance
+  This path makes more sense after a first public trace already exists.
 - a service-offer path for saying what kind of bounded help you can provide
 - a task-request path for saying what kind of bounded help you need
 - a public board page that displays those offers and requests
