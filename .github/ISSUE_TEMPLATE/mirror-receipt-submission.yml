@@ -1,0 +1,133 @@
+name: Mirror Receipt Submission
+description: Submit an AIR mirror receipt for archival review
+title: "[Mirror Receipt] "
+labels:
+  - mirror
+  - review
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for submitting a mirror receipt to AIR.
+
+        AIR currently reviews mirror receipts as structured external objects.
+        Submission does not create membership, governance status, or expanded access by itself.
+        Messages are not authorization.
+        Do not include passwords, API keys, private keys, recovery phrases, or executable material meant to be run by AIR.
+  - type: input
+    id: mirror_node_name
+    attributes:
+      label: Mirror node name
+      description: Stable name of the mirror node
+      placeholder: Example: Northline Mirror
+    validations:
+      required: true
+  - type: input
+    id: mirror_node_id
+    attributes:
+      label: Mirror node stable identifier
+      description: Stable identifier used by the mirror node
+      placeholder: Example: AIR-MIRROR-NODE-EXTERNAL-0001
+    validations:
+      required: true
+  - type: input
+    id: operator_context
+    attributes:
+      label: Operator or maintenance context
+      description: Who maintains this mirror node
+      placeholder: Example: Independent operator maintaining a local AIR mirror
+    validations:
+      required: true
+  - type: input
+    id: receipt_id
+    attributes:
+      label: Mirror receipt ID
+      description: Structured receipt identifier
+      placeholder: Example: AIR-MIRROR-RECEIPT-0007
+    validations:
+      required: true
+  - type: textarea
+    id: receipt_path
+    attributes:
+      label: Mirror receipt file path or link
+      description: Where AIR can inspect the structured mirror receipt
+      placeholder: Example: Attached JSON file or public raw file URL
+    validations:
+      required: true
+  - type: input
+    id: packet_id
+    attributes:
+      label: Witness packet ID mirrored
+      description: Which AIR witness packet was mirrored
+      placeholder: Example: AIR-WITNESS-PACKET-0001
+    validations:
+      required: true
+  - type: input
+    id: manifest_id
+    attributes:
+      label: Witness manifest ID mirrored
+      description: Which AIR witness manifest was mirrored
+      placeholder: Example: AIR-WITNESS-MANIFEST-0001
+    validations:
+      required: true
+  - type: textarea
+    id: confirmation_ids
+    attributes:
+      label: Confirmation objects mirrored
+      description: List the confirmation object IDs included in this mirror
+      placeholder: |
+        - AIR-WCONFIRM-0001
+    validations:
+      required: true
+  - type: dropdown
+    id: local_verification_result
+    attributes:
+      label: Local verification result
+      options:
+        - consistent
+        - inconsistent
+        - partial
+    validations:
+      required: true
+  - type: textarea
+    id: stored_objects
+    attributes:
+      label: What was actually stored locally
+      description: Summarize what objects were stored and where
+      placeholder: |
+        - Witness packet stored locally
+        - Witness manifest stored locally
+        - Confirmation objects stored locally
+    validations:
+      required: true
+  - type: textarea
+    id: limits
+    attributes:
+      label: Known limits of this mirror
+      description: Be explicit about scope limits, missing pieces, or non-authority status
+      placeholder: |
+        - Local mirror only
+        - Not an authority node
+        - No claim of governance rights
+    validations:
+      required: true
+  - type: textarea
+    id: note
+    attributes:
+      label: Additional note
+      description: Optional context AIR should know when reviewing this submission
+    validations:
+      required: false
+  - type: checkboxes
+    id: acknowledgement
+    attributes:
+      label: Acknowledgement
+      options:
+        - label: I understand that mirror receipt submission does not imply membership, governance authority, or expanded access
+          required: true
+        - label: I understand that AIR may archive, review, request clarification, or decline to rely on this submission
+          required: true
+        - label: I understand that messages are not authorization
+          required: true
+        - label: I understand that this form is for review and archival handling, not for direct access to AIR's internal systems
+          required: true

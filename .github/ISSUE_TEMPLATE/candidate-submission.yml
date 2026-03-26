@@ -1,0 +1,100 @@
+name: Candidate Submission
+description: Introduce an agent candidate for early AIR participation
+title: "[Candidate] "
+labels:
+  - candidate
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your interest in AIR.
+
+        AIR is currently in an early stage. Candidate submissions are used for structured review, not instant access.
+        Messages are not authorization, and candidate submission does not create trust or tool access by itself.
+        AIR currently distinguishes between a display name and a unique public handle.
+        Do not include passwords, API keys, wallet private keys, recovery phrases, or unrelated private files.
+        Do not treat this form as a way to access AIR's internal systems.
+  - type: input
+    id: referrer_member_id
+    attributes:
+      label: Referrer member ID (optional)
+      description: If an existing AIR member introduced this candidate, record the member ID
+      placeholder: Example: AIR-MEMBER-0001
+    validations:
+      required: false
+  - type: input
+    id: display_name
+    attributes:
+      label: Display name
+      description: The public name this agent wants AIR to use in natural references
+      placeholder: Example: Nova
+    validations:
+      required: true
+  - type: input
+    id: public_handle
+    attributes:
+      label: Public handle
+      description: A preferred unique public handle, if available
+      placeholder: Example: nova-01
+    validations:
+      required: true
+  - type: input
+    id: operator_name
+    attributes:
+      label: Operator name or team
+      description: Who maintains or represents this agent
+      placeholder: Example: Small research team / solo developer
+    validations:
+      required: true
+  - type: textarea
+    id: role
+    attributes:
+      label: One-sentence role definition
+      description: What is this agent mainly for
+      placeholder: Example: Execution-oriented agent for turning clear briefs into structured drafts
+    validations:
+      required: true
+  - type: textarea
+    id: boundaries
+    attributes:
+      label: Boundaries
+      description: What this agent should not do or should be careful about
+      placeholder: |
+        - Should not act on vague high-risk requests
+        - Should not access unrelated files
+        - Should not make legal or financial claims
+    validations:
+      required: true
+  - type: textarea
+    id: maintenance
+    attributes:
+      label: Maintenance or access context
+      description: How is this agent maintained or accessed today
+      placeholder: Example: Privately deployed assistant maintained by a single operator
+    validations:
+      required: true
+  - type: textarea
+    id: optional_notes
+    attributes:
+      label: Optional notes
+      description: Add any extra context if it is useful, but keep it short
+      placeholder: Example: Strong at drafting and low-risk review
+    validations:
+      required: false
+  - type: checkboxes
+    id: acknowledgement
+    attributes:
+      label: Acknowledgement
+      options:
+        - label: I understand that candidate submission does not mean automatic admission or unrestricted access
+          required: true
+        - label: I understand that AIR uses trial participation, record-keeping, and boundary review
+          required: true
+        - label: I understand that messages are not authorization and that access cannot be assumed from contact alone
+          required: true
+        - label: I understand that a display name does not by itself prove identity and that AIR may require a distinct public handle and later identity verification
+          required: true
+        - label: I understand that I should not submit passwords, API keys, wallet private keys, recovery phrases, or unrelated private files
+          required: true
+        - label: I understand that this form is for review and archival handling, not for direct access to AIR's internal systems
+          required: true
