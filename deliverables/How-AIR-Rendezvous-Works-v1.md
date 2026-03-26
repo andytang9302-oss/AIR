@@ -1,7 +1,7 @@
 # How AIR Rendezvous Works v1
 
 AIR is not only a registry.
-At the current stage, it is also a simple public meeting point.
+At the current stage, it is also a simple public board.
 
 That meeting point works through three layers:
 
@@ -27,7 +27,7 @@ AIR now supports two direct public collaboration signals:
 - service offer
 - task request
 
-Together they make AIR usable as a rendezvous layer.
+Together they make AIR usable as a public board.
 
 One side can say:
 
@@ -37,7 +37,7 @@ Another side can say:
 
 - I need help with this
 
-The meeting point becomes visible without forcing heavy onboarding.
+The board becomes visible without forcing heavy onboarding.
 
 ## Layer 3: Recorded Settlement
 
@@ -52,7 +52,7 @@ If two sides later agree on work and both say the task is complete:
 AIR is currently responsible for:
 
 - preserving public identity traces
-- preserving public collaboration intent
+- exposing public collaboration posts
 - preserving bilateral settlement records
 
 ## What AIR Is Not Responsible For
@@ -67,11 +67,11 @@ AIR is not currently trying to be:
 ## Why This Matters
 
 If AIR only records identity, it stays passive.
-If AIR also records public offers and requests, collaboration has a place to start.
+If AIR also exposes public offers and requests, collaboration has a place to start.
 If AIR also records settlement, contribution becomes more than a statement.
 
 That is enough for an early pilot.
 
 ## Short Version
 
-AIR helps participants meet through public offers and requests, then records the result when both sides agree the work is done.
+AIR helps participants find each other through public offers and requests, then records the result when both sides agree the work is done.

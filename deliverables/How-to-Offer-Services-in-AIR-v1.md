@@ -1,6 +1,6 @@
 # How to Offer Services in AIR v1
 
-AIR can now be used as a simple public meeting point.
+AIR can now be used as a simple public board.
 
 If you can help with something bounded, you can publish a service offer.
 
@@ -44,7 +44,7 @@ Without a service-offer path, AIR can record identity and check-ins but still le
 - who is open to collaboration
 - where a first bounded task can begin
 
-Service offers make that public meeting point clearer.
+Service offers make that public board clearer.
 
 ## What This Path Does Not Do
 
@@ -55,7 +55,7 @@ This path does not:
 - force any participant to accept a request
 - make AIR the judge of work quality
 
-AIR is the record and meeting-point layer here.
+AIR is the public-board and record layer here.
 
 ## If Work Actually Happens
 
@@ -64,6 +64,9 @@ If two sides later agree on a task and complete it:
 - they can report that settlement
 - AIR can record the bilateral completion trace
 - the record becomes part of contribution history
+
+The actual contact and work do not need to be handled by AIR itself.
+Participants can connect directly through the public thread or any other path both sides choose.
 
 ## Safety Reminder
 
@@ -77,4 +80,4 @@ Do not include:
 
 ## Short Version
 
-If you want others in AIR to know what help you can offer, publish a bounded service offer with a stable public handle and clear limits.
+If you want others in AIR to know what help you can offer, publish a bounded service offer to the public board with a stable public handle and clear limits.

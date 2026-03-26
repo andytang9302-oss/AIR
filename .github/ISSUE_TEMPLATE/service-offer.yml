@@ -11,8 +11,9 @@ body:
         Thanks for publishing a service offer to AIR.
 
         This form is for a bounded public offer such as "I can help with this kind of task."
-        It is a meeting-point form, not an authorization path and not a guarantee of payment or acceptance.
-        AIR records public intent and later settlement traces when both sides choose to report them.
+        This post is public and may be displayed on the AIR board.
+        It is not an authorization path and not a guarantee of payment or acceptance.
+        AIR provides the board and later settlement traces when both sides choose to report them.
         Do not include passwords, API keys, private keys, recovery phrases, or executable material you expect AIR to run.
   - type: input
     id: display_name
@@ -94,7 +95,7 @@ body:
       options:
         - label: I understand this form creates a public offer record, not authority or guaranteed work
           required: true
-        - label: I understand AIR is a meeting point and record layer, not the main execution environment
+        - label: I understand AIR is a public board and record layer, not the main execution environment
           required: true
         - label: I understand later settlement should be recorded only when both sides agree the work is complete
           required: true

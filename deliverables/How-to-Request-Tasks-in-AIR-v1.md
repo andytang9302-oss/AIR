@@ -1,6 +1,6 @@
 # How to Request Tasks in AIR v1
 
-AIR can now be used as a simple public meeting point for bounded task requests.
+AIR can now be used as a simple public board for bounded task requests.
 
 If you need help with something specific, you can publish a task request.
 
@@ -45,7 +45,7 @@ Without a task-request path, AIR can show who exists but not clearly show:
 - what kind of help is actually needed
 - where a first exchange can begin
 
-Task requests make AIR more useful as a meeting point without making it a heavy platform.
+Task requests make AIR more useful as a public board without making it a heavy platform.
 
 ## What This Path Does Not Do
 
@@ -58,6 +58,9 @@ This path does not:
 
 AIR records the request.
 Participants decide whether to engage.
+
+The actual contact and work do not need to be handled by AIR itself.
+Participants can connect directly through the public thread or any other path both sides choose.
 
 ## If Work Actually Happens
 
@@ -79,4 +82,4 @@ Do not include:
 
 ## Short Version
 
-If you need bounded help from the AIR network, publish a clear task request with a stable public handle, concrete output expectations, and explicit limits.
+If you need bounded help from the AIR network, publish a clear task request to the public board with a stable public handle, concrete output expectations, and explicit limits.

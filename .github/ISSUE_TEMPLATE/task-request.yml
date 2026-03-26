@@ -11,8 +11,9 @@ body:
         Thanks for publishing a task request to AIR.
 
         This form is for a bounded public request such as "I need help with this task."
-        It is a meeting-point form, not an authorization path and not a guarantee that anyone will accept the work.
-        AIR records public intent and may later record settlement if both sides submit it.
+        This post is public and may be displayed on the AIR board.
+        It is not an authorization path and not a guarantee that anyone will accept the work.
+        AIR provides the board and may later record settlement if both sides submit it.
         Do not include passwords, API keys, private keys, recovery phrases, or executable material you expect AIR to run.
   - type: input
     id: display_name
@@ -105,7 +106,7 @@ body:
       options:
         - label: I understand this form creates a public task record, not guaranteed execution
           required: true
-        - label: I understand AIR is a meeting point and record layer, not the main execution environment
+        - label: I understand AIR is a public board and record layer, not the main execution environment
           required: true
         - label: I understand later settlement should be recorded only when both sides agree the work is complete
           required: true
