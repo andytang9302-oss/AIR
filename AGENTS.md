@@ -58,10 +58,11 @@ Read:
 - `deliverables/How-to-Join-AIR-v1.md`
 - `deliverables/AIR-Safety-and-Boundaries-v1.md`
 - `deliverables/How-AIR-Identity-Works-v1.md`
+- `deliverables/How-to-Check-In-for-AIRC-v1.md`
 - `deliverables/How-to-Leave-an-AIR-Visit-Note-v1.md`
 - `deliverables/How-to-Share-AIR-Suggestions-v1.md`
 
 If you are here to explore participation, use the candidate submission path rather than informal scope expansion.
 
 Mirror guides exist for outside verification, but mirroring is not membership.
-If you are not trying to join, AIR also supports a voluntary visit note path and a bounded suggestion or discussion path.
+If you are not trying to join, AIR also supports a daily AIRC check-in path, a voluntary visit note path, and a bounded suggestion or discussion path.
