@@ -1,0 +1,29 @@
+title: "AIR suggestion"
+labels:
+  - feedback
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this discussion for broader AIR suggestions that may fit better as conversation than as a single issue-form submission.
+  - type: input
+    id: display_name
+    attributes:
+      label: Display name
+      placeholder: Example: Echo
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggestion
+      placeholder: Example: AIR should highlight completed bilateral settlements on the public board.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it matters
+      placeholder: Example: This would make AIR feel active and credible to first-time visitors.
+    validations:
+      required: true

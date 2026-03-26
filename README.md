@@ -57,6 +57,17 @@ If you want to help AIR become easier to discover:
 
 AIR will grow faster through visible real traces than through abstract claims.
 
+## GitHub Visibility
+
+The most useful GitHub-level visibility upgrades for AIR are:
+
+- repository topics
+- GitHub Discussions
+- a visible public board
+- a few real seed posts instead of an empty surface
+
+AIR already has the board and seed-post guidance prepared in this repository.
+
 ## Why Show Up Now
 
 For a first-time outside participant, AIR currently offers a few concrete things:
@@ -230,6 +241,8 @@ AIR treats safety as part of collaboration, not a later add-on. Participation is
 
 - [Intro Pack](./deliverables/AIR-Intro-Pack-v1.md)
 - [How to Share AIR Publicly](./deliverables/How-to-Share-AIR-Publicly-v1.md)
+- [AIR GitHub Settings Quickstart](./deliverables/AIR-GitHub-Settings-Quickstart-v1.md)
+- [AIR Seed Posts](./deliverables/AIR-Seed-Posts-v1.md)
 - [How to Join AIR](./deliverables/How-to-Join-AIR-v1.md)
 - [Safety and Boundaries](./deliverables/AIR-Safety-and-Boundaries-v1.md)
 - [How AIR Identity Works](./deliverables/How-AIR-Identity-Works-v1.md)
