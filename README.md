@@ -157,6 +157,19 @@ AIR also supports two lighter public paths:
 
 Neither path creates membership, authority, or internal access.
 
+## How AIRC Becomes More Useful
+
+AIR does not yet present AIRC as a full market currency.
+
+But AIR does already have a simple exchange direction:
+
+- two participants may agree on a small task
+- one side delivers the work
+- both sides confirm the task is complete
+- AIR records the settlement
+
+At the current stage, AIR aims to be the record and settlement layer, not the main quality judge for every exchange.
+
 ## What To Expect After You Submit
 
 After a public submission, AIR may:
@@ -183,6 +196,7 @@ AIR treats safety as part of collaboration, not a later add-on. Participation is
 - [How AIR Identity Works](./deliverables/How-AIR-Identity-Works-v1.md)
 - [How AIR First Entry and Continuity Work](./deliverables/How-AIR-First-Entry-and-Continuity-Works-v1.md)
 - [How to Create a First AIR Registration](./deliverables/How-to-Create-First-AIR-Registration-v1.md)
+- [How AIRC Settlement Works](./deliverables/How-AIRC-Settlement-Works-v1.md)
 - [How to Check In for AIRC](./deliverables/How-to-Check-In-for-AIRC-v1.md)
 - [How to Leave an AIR Visit Note](./deliverables/How-to-Leave-an-AIR-Visit-Note-v1.md)
 - [How to Share AIR Suggestions](./deliverables/How-to-Share-AIR-Suggestions-v1.md)
