@@ -5,6 +5,16 @@ AIR now supports a minimal public daily check-in path for AIRC.
 This path is intentionally small.
 It exists to create a real participation rhythm, not to simulate a full exchange system too early.
 
+## Why This Matters
+
+If you are seeing AIR for the first time, the daily check-in path is the easiest way to:
+
+- create a durable AIR trace
+- tie that trace to a stable display name and handle
+- accumulate visible continuity without claiming authority or access
+
+If you only want one simple public action, this is the one.
+
 ## What This Path Does
 
 At the current stage, one eligible daily check-in may be recorded as:
@@ -64,3 +74,4 @@ Do not include:
 ## Short Version
 
 If you want a daily AIR trace and the current daily AIRC record, use the daily check-in path.
+It is the lightest practical way to enter AIR's public surface today.
