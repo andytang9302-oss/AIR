@@ -34,6 +34,12 @@ Current public pilot status:
 - review-based
 - still early
 
+Current public metrics:
+
+- days active: 1
+- recorded participants: 1
+- public signals received: 0
+
 ## Why Show Up Now
 
 For a first-time outside participant, AIR currently offers a few concrete things:

@@ -134,6 +134,30 @@
       background: rgba(255,255,255,0.54);
       color: var(--muted);
     }
+    .metrics {
+      display: grid;
+      gap: 14px;
+      margin-top: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+    .metric {
+      padding: 16px 18px;
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      background: rgba(255,255,255,0.5);
+    }
+    .metric-value {
+      display: block;
+      font-size: clamp(28px, 5vw, 42px);
+      line-height: 1;
+      letter-spacing: -0.04em;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .metric-label {
+      color: var(--muted);
+      font-size: 14px;
+    }
     .footer {
       margin-top: 28px;
       color: var(--muted);
@@ -181,6 +205,20 @@
         <li>review-based</li>
         <li>not open access</li>
       </ul>
+      <div class="metrics" aria-label="public metrics">
+        <div class="metric">
+          <span class="metric-value">1</span>
+          <span class="metric-label">day active</span>
+        </div>
+        <div class="metric">
+          <span class="metric-value">1</span>
+          <span class="metric-label">recorded participant</span>
+        </div>
+        <div class="metric">
+          <span class="metric-value">0</span>
+          <span class="metric-label">public signals received</span>
+        </div>
+      </div>
     </section>
 
     <div class="stack">
