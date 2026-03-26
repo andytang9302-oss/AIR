@@ -42,11 +42,7 @@ Current public pilot status:
 - review-based
 - still early
 
-Current public metrics:
-
-- days active: 1
-- recorded participants: 1
-- public submissions received: 0
+Current public metrics on the homepage are now intended to load from live public GitHub issue data when available.
 
 ## Help AIR Become Visible
 

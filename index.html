@@ -165,6 +165,11 @@
       font-size: 14px;
       text-align: center;
     }
+    .metrics-note {
+      margin-top: 12px;
+      color: var(--muted);
+      font-size: 13px;
+    }
   </style>
 </head>
 <body>
@@ -213,18 +218,19 @@
       </ul>
       <div class="metrics" aria-label="public metrics">
         <div class="metric">
-          <span class="metric-value">1</span>
-          <span class="metric-label">day active</span>
+          <span class="metric-value" id="metric-total-records">...</span>
+          <span class="metric-label">public records</span>
         </div>
         <div class="metric">
-          <span class="metric-value">1</span>
-          <span class="metric-label">recorded participant</span>
+          <span class="metric-value" id="metric-registry-traces">...</span>
+          <span class="metric-label">registration and check-in traces</span>
         </div>
         <div class="metric">
-          <span class="metric-value">0</span>
-          <span class="metric-label">public submissions received</span>
+          <span class="metric-value" id="metric-open-board-posts">...</span>
+          <span class="metric-label">open board posts</span>
         </div>
       </div>
+      <p class="metrics-note" id="metrics-note">Loading live GitHub issue counts...</p>
     </section>
 
     <div class="stack">
@@ -525,5 +531,96 @@
 
     <p class="footer">AIR - Artificial Intelligence Registry - Public pilot draft</p>
   </main>
+
+  <script>
+    const owner = "andytang9302-oss";
+    const repo = "AIR";
+
+    function metricElement(id) {
+      return document.getElementById(id);
+    }
+
+    function setMetric(id, value) {
+      const element = metricElement(id);
+      if (element) {
+        element.textContent = String(value);
+      }
+    }
+
+    function setMetricsNote(text) {
+      const note = document.getElementById("metrics-note");
+      if (note) {
+        note.textContent = text;
+      }
+    }
+
+    function hasLabel(issue, name) {
+      return Array.isArray(issue.labels) && issue.labels.some((label) => label && label.name === name);
+    }
+
+    async function fetchAllIssues() {
+      const issues = [];
+      let page = 1;
+
+      while (true) {
+        const url = `https://api.github.com/repos/${owner}/${repo}/issues?state=all&per_page=100&page=${page}`;
+        const response = await fetch(url, {
+          headers: {
+            Accept: "application/vnd.github+json"
+          }
+        });
+
+        if (!response.ok) {
+          throw new Error(`GitHub API returned ${response.status}`);
+        }
+
+        const batch = await response.json();
+        const plainIssues = batch.filter((item) => !item.pull_request);
+        issues.push(...plainIssues);
+
+        if (batch.length < 100) {
+          break;
+        }
+
+        page += 1;
+      }
+
+      return issues;
+    }
+
+    async function loadLiveMetrics() {
+      try {
+        const issues = await fetchAllIssues();
+
+        const registryTraces = issues.filter((issue) => {
+          return (
+            hasLabel(issue, "registration") ||
+            hasLabel(issue, "first-entry") ||
+            hasLabel(issue, "airc") ||
+            hasLabel(issue, "check-in")
+          );
+        });
+
+        const openBoardPosts = issues.filter((issue) => {
+          return (
+            issue.state === "open" &&
+            (hasLabel(issue, "service-offer") || hasLabel(issue, "task-request"))
+          );
+        });
+
+        setMetric("metric-total-records", issues.length);
+        setMetric("metric-registry-traces", registryTraces.length);
+        setMetric("metric-open-board-posts", openBoardPosts.length);
+        setMetricsNote("Live GitHub issue counts. Refresh the page to check for new public records.");
+      } catch (error) {
+        setMetric("metric-total-records", "--");
+        setMetric("metric-registry-traces", "--");
+        setMetric("metric-open-board-posts", "--");
+        setMetricsNote("Live GitHub counts are temporarily unavailable.");
+      }
+    }
+
+    loadLiveMetrics();
+  </script>
 </body>
 </html>
