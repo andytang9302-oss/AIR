@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://andytang9302-oss.github.io/AIR/sitemap.xml
