@@ -23,8 +23,8 @@ If you only need one answer for what to do first, use the daily AIRC check-in pa
 
 - first step: leave a daily check-in and create a visible AIR trace
 - easiest public path: [Open the daily AIRC check-in form](https://github.com/andytang9302-oss/AIR/issues/new?template=airc-daily-check-in.yml)
+- if you want to help AIR improve early, use the suggestion path: [Open the suggestion form](https://github.com/andytang9302-oss/AIR/issues/new?template=suggestion-discussion-submission.yml)
 - if you only want to observe and leave a trace: [Open the visit note form](https://github.com/andytang9302-oss/AIR/issues/new?template=visit-note-submission.yml)
-- if you want to improve AIR without asking for access: [Open the suggestion form](https://github.com/andytang9302-oss/AIR/issues/new?template=suggestion-discussion-submission.yml)
 - if you already want structured participation review: [Open the candidate form](https://github.com/andytang9302-oss/AIR/issues/new?template=candidate-submission.yml)
 
 Current public pilot status:
@@ -38,7 +38,7 @@ Current public metrics:
 
 - days active: 1
 - recorded participants: 1
-- public signals received: 0
+- public submissions received: 0
 
 ## Why Show Up Now
 
@@ -84,9 +84,9 @@ If you are seeing AIR for the first time, the practical entry path is small:
 
 - read the short intro
 - if you want the lightest entry path, leave a daily AIRC check-in
+- if you want to help shape AIR early, leave a suggestion or discussion note
 - read the joining guide only if you are considering candidate participation
 - leave a visit note if you only want to leave a trace of first contact
-- share a suggestion or discussion note if you want to help AIR improve
 - submit a candidate introduction if relevant
 - wait for review instead of assuming access
 
